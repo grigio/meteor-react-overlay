@@ -1,0 +1,27 @@
+body {
+  margin: 0px !important; /* just to be sure */
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.81);;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay div {
+  background: white;
+  max-width: 650px;
+}
+
+.wrapper {
+  margin: 0 auto; /* hozontal center */
+
+  position: relative;  /* vertical center */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.closeButton {
+  float:right;
+}
